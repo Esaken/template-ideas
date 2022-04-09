@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+      
+      <!-- Start video hero -->
+      <div class="video-hero jquery-background-video-wrapper demo-video-wrapper">
+        <video class="jquery-background-video" autoplay muted loop poster="https://d2ezlykacdqcnj.cloudfront.net/_assets/home-video/beach-waves-loop.jpg">
+          <source src="https://d2ezlykacdqcnj.cloudfront.net/_assets/home-video/beach-waves-loop.mp4" type="video/mp4">
+         
+        </video>
+        <div class="video-overlay"></div>
+        <div class="page-width">
+          <div class="video-hero--content">
+            <h2>Background Video Demo</h2>
+            <p>Full width video hero</p>
+          </div>
+        </div>
+      </div>
+      <!-- End video hero -->
+      
+      <div id="content">
+        <div class="page-width">
+          <h3>Easy Background Videos</h3>
+          <p>This page uses the <a href="https://github.com/BGStock/jquery-background-video" target="_blank">jQuery Background Video</a> plugin along with some simple html and css to generate this background video.</p>
+          <p>The video overlay pattern is available at <a href="http://html5backgroundvideos.com/pattern-overlays/" target="_blank">http://html5backgroundvideos.com/pattern-overlays/</a></p>
+        </div>
+      </div>
+
+<script>
+    $('.jquery-background-video').bgVideo({fadeIn: 2000});
+</script>
+    <script src="script.js"></script>
+    <script src="jquery.js"></script>
+
+</body>
+</html>
